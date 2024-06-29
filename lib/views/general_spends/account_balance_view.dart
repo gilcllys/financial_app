@@ -1,12 +1,11 @@
 import 'package:flutter/cupertino.dart';
 
-class GeneralSpendsView extends StatelessWidget {
-  const GeneralSpendsView({super.key});
+class AccountBalanceView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text('Gastos Gerais'),
+      child: Text('Balanço da conta'),
     );
   }
 }
